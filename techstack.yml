@@ -1,0 +1,64 @@
+repo_name: rlfagan/hs-tls
+report_id: 727cd334c91fe9bfecc2469208263ff7
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:02:42+00:00'
+requested_by: kazu-yamamoto
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/rlfagan/hs-tls
+  detection_source: Repo Metadata
+- name: Haskell
+  description: An advanced purely-functional programming language
+  website_url: http://www.haskell.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1069/oCgm29k9.png
+  detection_source_url: https://github.com/rlfagan/hs-tls
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/hs-tls
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/rlfagan/hs-tls/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Olivier Chéron
+  last_updated_on: 2020-03-08 17:40:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/rlfagan/hs-tls
+  detection_source: Repo Metadata
